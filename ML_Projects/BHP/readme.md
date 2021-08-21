@@ -69,7 +69,13 @@ sudo pip3 install -r /home/ubuntu/BangloreHomePrices/server/requirements.txt
 python3 /home/ubuntu/BangloreHomePrices/client/server.py
 ```
 Running last command above will prompt that server is running on port 5000.
-8. Now just load your cloud url in browser (for me it was http://ec2-3-133-88-210.us-east-2.compute.amazonaws.com/) and this will be fully functional website running in production cloud environment
+8. Now just load your cloud url in browser (for me it was http://ec2-3-133-88-210.us-east-2.compute.amazonaws.com/) and this will be fully functional website running in production cloud environment (Service will be stopped once we closed the command)
+
+9. we can run the server.py by running following command.
+    nohup python3 server.py &
+10. if you would like to kill the process running in back group.
+    ps as | grep server.py
+    kill PID (process id of server.py)
 
 
 
