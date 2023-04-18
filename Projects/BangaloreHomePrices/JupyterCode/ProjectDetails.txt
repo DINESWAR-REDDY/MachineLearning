@@ -1,0 +1,14 @@
+Real Estate Price Prediction:
+
+Technologies: Data Clearning (NumPy, Pandas) , Model Building (Scikit-learn), Data Visualization (matplotlib, Seaborn), IDE (Jupyter Notebook)
+
+
+yet to clean:
+
+Programming Language: Python
+Data Cleaning: NumPy, Pandas
+Data Visualization: matplotlib, Seaborn
+Model Building: sklearn
+Backend Server: Python Flask
+Website/ Front End: css/js/html
+
